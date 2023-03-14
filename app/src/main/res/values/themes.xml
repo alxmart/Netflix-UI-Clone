@@ -7,7 +7,7 @@
         <item name="colorPrimary">@color/primaria</item>
         <!-- <item name="colorPrimaryVariant">@color/purple_700</item> -->
         <item name="colorPrimaryVariant">@color/primaria_variacao</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/branco</item>
         <!-- Secondary brand color. -->
         <!-- <item name="colorSecondary">@color/teal_200</item> -->
         <item name="colorSecondary">@color/secundaria</item>
