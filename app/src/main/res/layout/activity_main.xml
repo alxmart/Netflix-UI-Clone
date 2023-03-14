@@ -4,4 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="43dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="73dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
