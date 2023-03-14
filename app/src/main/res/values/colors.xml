@@ -10,6 +10,7 @@
 
     <!-- Customizando Netflix -->
     <color name="branco">#FFFFFF</color>
+    <color name="preto">#000000</color>
     <color name="primaria">#E70001</color>
     <color name="primaria_variacao">#AA0407</color>
     <color name="secundaria">#F70000</color>
