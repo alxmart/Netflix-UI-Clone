@@ -10,9 +10,9 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Filmes"
         android:textColor="@color/menu_navegacao"
-        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteX="219dp"
         tools:layout_editor_absoluteY="73dp" />
 
     <ImageView
@@ -27,8 +27,17 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Séries"
         android:textColor="@color/menu_navegacao"
         tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minha lista"
+        android:textColor="@color/menu_navegacao"
+        tools:layout_editor_absoluteX="306dp"
         tools:layout_editor_absoluteY="73dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
