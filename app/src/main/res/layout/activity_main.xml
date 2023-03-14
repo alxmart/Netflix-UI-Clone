@@ -189,6 +189,7 @@
         android:layout_height="56dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="@id/linhaGuiaEsquerda"
         app:srcCompat="@drawable/f1"
         tools:layout_editor_absoluteY="372dp" />
