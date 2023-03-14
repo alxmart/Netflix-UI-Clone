@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/menu_navegacao"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="73dp" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="43dp"
@@ -19,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:textColor="@color/white"
+        android:textColor="@color/menu_navegacao"
         tools:layout_editor_absoluteX="128dp"
         tools:layout_editor_absoluteY="73dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
