@@ -6,6 +6,42 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:drawableTop="@drawable/ic_informacao_24"
+        android:padding="0dp"
+        android:text="Detalhes"
+        android:textSize="10sp"
+        app:iconPadding="0dp"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_executar_24"
+        android:text="Assistir"
+        app:iconPadding="0dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:drawableTop="@drawable/ic_adicionar_24"
+        android:padding="0dp"
+        android:text="Minha lista"
+        android:textSize="10sp"
+        app:iconPadding="0dp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="272dp" />
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
@@ -119,20 +155,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.20" />
+        app:layout_constraintGuide_percent="0.10" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/linhaGuiaDireita"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.8" />
+        app:layout_constraintGuide_percent="0.9" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_executar_24"
         android:text="Assistir"
+        app:iconPadding="0dp"
         tools:layout_editor_absoluteX="155dp"
         tools:layout_editor_absoluteY="272dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
